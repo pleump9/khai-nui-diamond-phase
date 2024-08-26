@@ -27,7 +27,7 @@ enum trend  // enumeration of trend in tf Day
 int OnInit()
   {
 //---
-
+   Comment(""); // Clear previous comments
 //---
    return(INIT_SUCCEEDED);
   }
@@ -37,7 +37,7 @@ int OnInit()
 void OnDeinit(const int reason)
   {
 //---
-
+   Comment(""); // Clear the comment when the EA is removed
   }
 //+------------------------------------------------------------------+
 //| Expert tick function                                             |
